@@ -3,39 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Marioclub</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <p>hello <strong>CRACKA</strong></p>
-    <p>
-      <em>web page <small>lil cracka</small></em>
-    </p>
-
-    <blockquote cite="deez">ASa</blockquote>
-    <div class="yahoo">
-      <div class="column">
-        <h1>THIS IS A SECTION</h1>
-        <p>this is a <em>paragraph</em> inside a section</p>
+    <header>
+      <h1>Marioclub</h1>
+    </header>
+    <section class="banner">
+      <img src="img/banner.png" alt="marioclub welcome banner" />
+      <div class="welcome">
+        <h2>Welcome to <br /><span>Marioclub</span></h2>
       </div>
-    </div>
-    <div class="yahoo">
-      <form action="" id="info-form">
-        <label for="great-uncle">What is your great uncle's middle name?</label>
-        <input type="text" id="great-uncle" />
-        <label for="kill">kill?</label>
-        <select name="people-to-kill" id="kill">
-          <option value="nuts">myself</option>
-          <option value="cojones">yourself</option>
-          <option value="testicles">john lennon</option>
-          <option value="balls">stevie wonder</option>
-        </select>
-        <button type="submit">Turn over info to the CIA</button>
+    </section>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="./join.html" class="join">Join the club</a></li>
+        <li><a href="./news.html" class="news">Latest news</a></li>
+        <li><a href="./games.html" class="games">New games</a></li>
+        <li><a href="./contact.html" class="contact">contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <article>
+        <h2>It's a me, Mario</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
+          cupiditate laboriosam sint reprehenderit at incidunt delectus,
+          repellat eius fugiat facere, maxime necessitatibus. Corrupti ipsam
+          aperiam rem. Illum saepe totam ipsa? Lorem, ipsum dolor sit amet
+          consectetur adipisicing elit. Similique ipsa inventore minima officia
+          recusandae, excepturi natus, placeat nesciunt laudantium praesentium
+          sunt alias. Vel numquam, doloribus neque ad obcaecati eveniet quas!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+          neque illo. Adipisci quaerat nobis repudiandae vero voluptatibus animi
+          consequuntur iure! Ratione ipsam necessitatibus consectetur,
+          voluptatibus aliquid magnam laudantium debitis minima.
+        </p>
+      </article>
+      <ul class="images">
+        <li><img src="img/thumb-1.png" alt="mario-thumb-1" /></li>
+        <li><img src="img/thumb-2.png" alt="mario-thumb-2" /></li>
+      </ul>
+    </main>
+    <section class="join">
+      <h2>Join Today!</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta quasi
+        eaque neque, dolor, asperiores, minima rerum tempore vitae quo tempora
+        eligendi placeat sapiente perspiciatis illum impedit atque nisi non
+        nulla.
+      </p>
+      <form action="">
+        <input type="email" name="email" placeholder="Type email" required />
       </form>
-    </div>
-    <div class="yahoo">
-      <a href="./about.html">learn more</a>
-    </div>
+    </section>
+    <footer>
+      <p class="copyright">Copyright 2024 Marioclub</p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
